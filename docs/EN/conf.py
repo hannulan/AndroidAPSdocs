@@ -64,11 +64,13 @@ myst_html_meta = {
 }
 
 latex_documents = [
-    ('index', 'androidaps.tex', 'AndroidAPS Documentation',
+    ('index', 'AndroidAPS.tex', 'AndroidAPS Documentation',
      'AndroidAPS', 'manual'),
 ]
 
 latex_elements = {
-    'papersize': 'a4paper',
-    'pointsize': '11pt',
+    "papersize": "a4paper",
+    "pointsize": "11pt",
+    "secnumdepth": "3",
+    "tocdepth": "3",
 }
