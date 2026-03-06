@@ -62,3 +62,13 @@ myst_html_meta = {
   'twitter:description':'Android APS (AAPS) is an open source app for people living with insulin-dependent diabetes. It is an artificial pancreas system (APS) which runs on Android smartphones.',
   'twitter:image': 'https://androidaps.readthedocs.io/en/latest/_static/androidaps-logo.png',
 }
+
+latex_documents = [
+    ('index', 'androidaps.tex', 'AndroidAPS Documentation',
+     'AndroidAPS', 'manual'),
+]
+
+latex_elements = {
+    'papersize': 'a4paper',
+    'pointsize': '11pt',
+}
