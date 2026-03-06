@@ -6,6 +6,9 @@ build:
    tools:
     python: "3.11"
 
+formats:
+  - pdf
+
 # Python
 python:
   install:
